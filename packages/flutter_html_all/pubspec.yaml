@@ -13,18 +13,31 @@ dependencies:
   flutter_html:
     git:
       url: https://github.com/tienbm/flutter_html.git
-  flutter_html_audio: ^3.0.0
-  flutter_html_iframe: ^3.0.0
-  flutter_html_math: ^3.0.0
-  flutter_html_svg: ^3.0.0
-  flutter_html_table: ^3.0.0
-  flutter_html_video: ^3.0.0
-
-
-dependency_overrides:
-  flutter_html:
+  flutter_html_audio:
     git:
       url: https://github.com/tienbm/flutter_html.git
+      path: packages/flutter_html_audio
+  flutter_html_iframe:
+    git:
+      url: https://github.com/tienbm/flutter_html.git
+      path: packages/flutter_html_iframe
+  flutter_html_math:
+    git:
+      url: https://github.com/tienbm/flutter_html.git
+      path: packages/flutter_html_math
+  flutter_html_svg:
+    git:
+      url: https://github.com/tienbm/flutter_html.git
+      path: packages/flutter_html_svg
+  flutter_html_table:
+    git:
+      url: https://github.com/tienbm/flutter_html.git
+      path: packages/flutter_html_table
+  flutter_html_video:
+    git:
+      url: https://github.com/tienbm/flutter_html.git
+      path: packages/flutter_html_video
+
       
 dev_dependencies:
   flutter_test:
