@@ -18,6 +18,12 @@ dependencies:
   flutter_html_table: ^3.0.0
   flutter_html_video: ^3.0.0
 
+
+dependency_overrides:
+  flutter_html:
+    git:
+      url: https://github.com/tienbm/flutter_html.git
+      
 dev_dependencies:
   flutter_test:
     sdk: flutter
